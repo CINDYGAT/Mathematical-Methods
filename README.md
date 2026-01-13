@@ -63,3 +63,44 @@ Tecnologías utilizadas:
     Métodos numéricos avanzados para la resolución de ecuaciones diferenciales.
 
 Este proyecto ilustra la aplicación de métodos computacionales en la astrofísica, específicamente en la simulación de órbitas planetarias con correcciones relativistas.
+
+# Proyecto Final: Simulación del Modelo de Ising 2D
+
+Este proyecto implementa una simulación computacional del modelo de Ising en dos dimensiones, un sistema fundamental en física estadística que describe fenómenos de magnetización y transiciones de fase. El código utiliza el algoritmo de Metrópolis para estudiar el comportamiento de una red de espines bajo diferentes condiciones termodinámicas.
+
+## Características Principales:
+
+1. **Implementación Completa del Modelo de Ising**:
+   - Cálculo de energía y magnetización para configuraciones de espines
+   - Simulación de interacciones entre vecinos más cercanos con acoplamiento J
+   - Inclusión de campo magnético externo H
+
+2. **Algoritmo de Metrópolis**:
+   - Implementación eficiente del método Monte Carlo para muestreo de configuraciones
+   - Condiciones de frontera periódicas para minimizar efectos de borde
+   - Mecanismo de aceptación/rechazo basado en el factor de Boltzmann
+
+3. **Análisis Termodinámico**:
+   - Estudio de la evolución temporal de energía y magnetización
+   - Comparación entre arranques en frío (todos los espines +1) y caliente (aleatorio)
+   - Cálculo de cantidades termodinámicas: calor específico y susceptibilidad magnética
+
+4. **Identificación de Transiciones de Fase**:
+   - Determinación del punto crítico Tc a partir de picos en el calor específico
+   - Comparación con el valor teórico exacto para red cuadrada 2D
+   - Estudio de efectos de tamaño finito en la transición de fase
+
+## Resultados Destacados:
+
+- **Comportamiento de la magnetización**: Disminución desde valores altos a bajos con aumento de temperatura
+- **Punto crítico teórico**: Tc ≈ 2.269 (en unidades de J/kB) para el modelo de Ising 2D
+- **Comportamiento del calor específico**: Divergencia en el punto crítico indicando transición de fase de segundo orden
+- **Dependencia del tamaño**: El máximo del calor específico escala con el tamaño de la red
+
+## Aplicaciones:
+- Educación en física estadística y mecánica estadística
+- Estudio de transiciones de fase y fenómenos críticos
+- Introducción a métodos de Monte Carlo en sistemas interactuantes
+- Análisis de sistemas magnéticos y su comportamiento colectivo
+
+Este proyecto combina conceptos fundamentales de física teórica con técnicas computacionales avanzadas, proporcionando una herramienta educativa para entender fenómenos colectivos en sistemas complejos y la implementación de algoritmos de simulación estadística.
